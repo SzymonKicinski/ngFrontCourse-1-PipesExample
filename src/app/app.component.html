@@ -9,7 +9,7 @@
           <strong>
             {{ server.name }}
           </strong>
-          | {{ server.instanceType | uppercase }} | {{ server.started | date: 'fullDate' }}
+          | {{ server.instanceType | uppercase }} | {{ server.started | date: 'fullDate' | uppercase }}
           <!-- 
             | {{ server.instanceType | uppercase }} | {{ server.started | date: 'fullDate': kolejny parametr }}
            -->
